@@ -5,7 +5,8 @@ function addYear() {
     var listItem = document.createElement('li');
     listItem.className = 'item';
     listItem.innerHTML = `
-      <span class="title">Räkning år ${year}</span>
+      <h1>År ${year}</h1>
+      <span class="title">Räkning</span>
       <div class="container">
         <span class="undertitle">Eget kapital</span>
         <input type="number" class="equity" placeholder="Ange eget kapital">
