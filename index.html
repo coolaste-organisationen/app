@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +10,15 @@
 </head>
 <body>
   <div id="root">
-    <ul class="list">
-      <li class="item">
-        <span class="title">Räkning år 0</span>
-
-        <div class="container">
-          <span class="undertitle">Tillgångar</span>
-          
-        </div>
-
-        <div class="container">
-          <span class="undertitle">Skulder & eget kapital</span>
-          
-        </div>
-      </li>
+    <ul class="list" id="yearList">
     </ul>
+    <button onclick="calculate()">Beräkna</button>
+    <div id="result"> <!--Visa resultatet-->
+    </div>
+  </div>
+  </li>
+  </ul>
   </div>
 </body>
+
 </html>
