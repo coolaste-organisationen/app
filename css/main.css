@@ -1,7 +1,28 @@
 /* Main */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 
+h1 {
+  background-color: #4054B2;
+  color:white;
+  padding-left: 50%;
+}
+
+.container {
+  background-color: #f9f6f6;
+  color: #304294;
+}
+
+button {
+  background-color: #4054B2;
+  color: white;
+}
+
+div {
+  color: black;
+}
